@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanRoots — Rent Plants in Rented Homes | Hassle-Free Garden Subscriptions</title>
+  <meta name="description" content="UrbanRoots brings greenery to renters — delivery, setup and full maintenance on a flexible subscription. Cancel or move anytime. Perfect for apartments, balconies and co-working spaces.">
+  <meta name="keywords" content="plant rental, garden subscription, balcony plants, indoor plants rental, tenant gardening service, UrbanRoots">
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#222;}
+    header {display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; background:#fff; position:sticky; top:0; border-bottom:1px solid #eee;}
+    .logo {display:flex; align-items:center;}
+    .logo img {height:40px;}
+    .logo span {font-size:1.3rem; font-weight:bold; color:#064420; margin-left:-3px;}
+    header nav a {margin:0 0.75rem; text-decoration:none; color:#064420; font-weight:500;}
+
+    .hero {position:relative; text-align:left; color:white;}
+    .hero img {width:100%; height:80vh; object-fit:cover; display:block;}
+    .hero-text {position:absolute; top:50%; left:10%; transform:translateY(-50%); background:rgba(0,0,0,0.4); padding:20px 30px; border-radius:10px; max-width:600px;}
+    .hero-text h1 {font-size:2.8rem; margin-bottom:15px; color:#1fcc42; font-family:'Poppins', sans-serif; font-weight:700;}
+    .hero-text p {font-size:1.2rem; line-height:1.6; color:#f1f1f1; font-family:'Open Sans', sans-serif; margin-bottom:10px;}
+
+    section {padding:3rem 2rem;}
+    h2 {text-align:center; color:#064420; margin-bottom:1rem;}
+
+    .steps {display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem; text-align:center;}
+    .step {flex:1; min-width:220px; max-width:250px;}
+
+    .testimonials {display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem;}
+    .testimonial {flex:1; min-width:220px; max-width:300px; padding:1rem; border:1px solid #eee; border-radius:8px; background:#fff; text-align:center;}
+    .testimonial img {width:80px; height:80px; object-fit:cover; border-radius:50%; margin-bottom:0.5rem;}
+
+    .gallery {display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;}
+    .gallery img {width:100%; max-width:300px; border-radius:6px;}
+
+    form {max-width:500px; margin:0 auto; display:flex; flex-direction:column; gap:1rem;}
+    input, select, textarea {padding:0.6rem; border:1px solid #ccc; border-radius:4px;}
+    button {padding:0.75rem; border:none; border-radius:6px; background:#064420; color:#fff; font-size:1rem; cursor:pointer;}
+    button:hover {background:#046631;}
+
+    .faq {max-width:700px; margin:0 auto;}
+    .faq-item {margin-bottom:1rem;}
+
+    footer {background:#064420; color:#fff; padding:2rem; text-align:center;}
+    footer a {color:#fff; margin:0 0.5rem; text-decoration:none;}
+
+    #contact {
+  background:#f9fdf9;
+  padding:3rem 2rem;
+}
+.contact-container {
+  max-width:600px;
+  margin:0 auto;
+  background:#fff;
+  padding:2rem;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+#contact label {
+  font-weight:600;
+  margin-top:0.5rem;
+  display:block;
+  color:#064420;
+}
+#contact input, 
+#contact select, 
+#contact textarea {
+  width:100%;
+  padding:0.75rem;
+  border:1px solid #ccc;
+  border-radius:8px;
+  margin-bottom:1rem;
+  font-size:1rem;
+}
+#contact button {
+  width:100%;
+  padding:1rem;
+  border:none;
+  border-radius:8px;
+  background:#064420;
+  color:#fff;
+  font-size:1.1rem;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+#contact button:hover {
+  background:#046631;
+}
+
+#faq {
+  padding:3rem 2rem;
+  background:#fff;
+}
+.faq-item {
+  margin-bottom:1rem;
+  border:1px solid #ddd;
+  border-radius:8px;
+  overflow:hidden;
+}
+.faq-question {
+  width:100%;
+  text-align:left;
+  padding:1rem;
+  font-size:1.1rem;
+  font-weight:600;
+  background:#f1fdf1;
+  border:none;
+  cursor:pointer;
+  color:#064420;
+  transition:background 0.3s;
+}
+.faq-question:hover {
+  background:#e5f7e5;
+}
+.faq-answer {
+  display:none;
+  padding:1rem;
+  font-size:1rem;
+  line-height:1.5;
+  color:#333;
+  background:#fafafa;
+}
+.faq-item.active .faq-answer {
+  display:block;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="1.png" alt="UrbanRoots logo">
+      <span>UrbanRoots</span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#how">How It Works</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="123.jpg" alt="Balcony filled with potted plants and cozy seating">
+    <div class="hero-text">
+      <h1>Greenery That Moves With You</h1>
+      <p>Turn your rented house into a home with effortless greenery. Flexible plant rentals for balconies, living rooms, and workspaces.</p>
+      <p>Delivered, styled, and fully maintained by our team — no hassle, no ownership, cancel anytime.</p>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="21.png" alt="choose plan icon" class="step-icon">
+        <h3>Choose your garden style</h3>
+        <p>Pick a setup that suits your space — tabletop, balcony cluster, hanging pots or a vertical wall.</p>
+      </div>
+      <div class="step">
+        <img src="22.png" alt="delivery truck icon" class="step-icon">
+        <h3>We deliver & set up</h3>
+        <p>Our team brings the plants, pots and soil, and arranges everything to match your home’s style.</p>
+      </div>
+      <div class="step">
+        <img src="23.png" alt="watering can icon" class="step-icon">
+        <h3>We maintain everything</h3>
+        <p>Regular watering, trimming and free replacements of any dead plants — all handled by UrbanRoots.</p>
+      </div>
+      <div class="step">
+        <img src="24.jpg" alt="moving truck icon" class="step-icon">
+        <h3>Cancel or move anytime</h3>
+        <p>No ownership hassles. Pause, cancel or transfer your garden when you change homes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="31.jpg" alt="Tirupathi, UrbanRoots customer">
+        “UrbanRoots made my rented flat feel like home. No more worrying about plants when I move!” <br>— Tirupathi, Ashok Nagar, HYD
+      </div>
+      <div class="testimonial">
+        <img src="32.jpg" alt="Harish, UrbanRoots customer">
+        “I just shifted and they reinstalled my balcony garden at the new place. Quick and professional.” <br>— Harish, Gachibowli, HYD
+      </div>
+      <div class="testimonial">
+        <img src="33.jpg" alt="Venkatesh, UrbanRoots customer">
+        “My balcony looks amazing and I don’t even have to water the plants myself!” <br>— Venkatesh, Hitech City, HYD
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <figure><img src="1.jpg" alt="small balcony makeover"><figcaption>Small balcony transformation</figcaption></figure>
+      <figure><img src="2.jpg" alt="vertical wall herbs"><figcaption>Vertical herb wall for a sunny kitchen</figcaption></figure>
+      <figure><img src="131.webp" alt="office desk plants"><figcaption>Office desks — green corners for focus and well-being</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Ready for your green space?</h2>
+    <div class="contact-container">
+      <form action="https://formspree.io/f/mqadklbq" method="POST" target="_blank">
+        <input type="hidden" name="_subject" value="🌱 New UrbanRoots Lead">
+        <input type="hidden" name="_redirect" value="thankyou.html">
+  
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+  
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 98XXXXXXXX" required>
+  
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="e.g. Hyderabad" required>
+  
+        <label for="space">Type of Space</label>
+        <select id="space" name="space" required>
+          <option value="">-- Select your space --</option>
+          <option>Apartment</option>
+          <option>Balcony</option>
+          <option>Terrace</option>
+          <option>Office</option>
+        </select>
+  
+        <label for="message">Tell us about your space</label>
+        <textarea id="message" name="message" placeholder="Any preferences or details"></textarea>
+  
+        <button type="submit">🌱 Get a Free Consultation</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <button class="faq-question">Do I own the plants?</button>
+        <div class="faq-answer">No — the plants and planters remain UrbanRoots’ property. You enjoy them while subscribed.</div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">What happens if a plant dies?</button>
+        <div class="faq-answer">We replace dead plants at no extra cost as part of our maintenance promise.</div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Can you move my plants when I shift house?</button>
+        <div class="faq-answer">Yes. We offer reinstallation service in the same city for a small transfer fee (or free for specific plans).</div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">How often do you visit for maintenance?</button>
+        <div class="faq-answer">Typically weekly or biweekly, depending on your plan and plant types.</div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">How do I cancel?</button>
+        <div class="faq-answer">Contact us via the form, call, or WhatsApp and we’ll schedule pickup. No long-term penalties.</div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>Quick links: <a href="#">About</a> | <a href="#how">How It Works</a> | <a href="#gallery">Gallery</a> | <a href="#testimonials">Testimonials</a> | <a href="#faq">FAQ</a> | <a href="#contact">Contact</a></p>
+    <p>Phone: +91-7993936606 • Email: jerdonscourser73@gmail.com</p>
+    <p>Follow us: <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">YouTube</a></p>
+    <p>© 2025 UrbanRoots. All rights reserved. Terms & Conditions | Privacy Policy</p>
+  </footer>
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const btn = item.querySelector('.faq-question');
+      btn.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+  
+</body>
+</html>
